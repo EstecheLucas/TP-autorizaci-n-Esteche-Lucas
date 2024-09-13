@@ -37,7 +37,7 @@ app.use(
 );
 
 // routes
-app.use("/auth", authRouter);
+app.use("/auth", authRouter)
 app.use("/todos", todosRouter);
 
 // Servidor escuchando
